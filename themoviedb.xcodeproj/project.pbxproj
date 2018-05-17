@@ -26,6 +26,7 @@
 		A3E5101D20AD182B00D29541 /* HomeMoviesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E5101C20AD182B00D29541 /* HomeMoviesPresenter.swift */; };
 		A3E5101F20AD2AE700D29541 /* DetailPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E5101E20AD2AE700D29541 /* DetailPopup.swift */; };
 		A3E5102120AD2D6100D29541 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E5102020AD2D6100D29541 /* UIDeviceExtension.swift */; };
+		A3E5102320ADC83100D29541 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E5102220ADC83100D29541 /* SCLAlertView.swift */; };
 		EBBACCFD9FF6622C5E82D1C3 /* Pods_themoviedb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9289F83D2C81266EB3225DBB /* Pods_themoviedb.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		A3E5101C20AD182B00D29541 /* HomeMoviesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMoviesPresenter.swift; sourceTree = "<group>"; };
 		A3E5101E20AD2AE700D29541 /* DetailPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPopup.swift; sourceTree = "<group>"; };
 		A3E5102020AD2D6100D29541 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
+		A3E5102220ADC83100D29541 /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
 		F12443F4DB653F4E1DF73B3D /* Pods-themoviedb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-themoviedb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-themoviedb/Pods-themoviedb.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -213,6 +215,7 @@
 				A3E5100820AD066400D29541 /* Extension.swift */,
 				A3E5101820AD15D900D29541 /* Reachability.swift */,
 				A3E5102020AD2D6100D29541 /* UIDeviceExtension.swift */,
+				A3E5102220ADC83100D29541 /* SCLAlertView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 				A3A7555C20AD015500DB6CC0 /* AppDelegate.swift in Sources */,
 				A3E5100620AD03C200D29541 /* HomeMoviesView.swift in Sources */,
 				A3E5101F20AD2AE700D29541 /* DetailPopup.swift in Sources */,
+				A3E5102320ADC83100D29541 /* SCLAlertView.swift in Sources */,
 				A3E5100B20AD08EE00D29541 /* TypeMovie.swift in Sources */,
 				A3E5102120AD2D6100D29541 /* UIDeviceExtension.swift in Sources */,
 				A3E5100420AD033E00D29541 /* Constants.swift in Sources */,

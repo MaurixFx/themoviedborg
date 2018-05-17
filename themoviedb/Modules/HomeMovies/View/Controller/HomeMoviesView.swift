@@ -51,6 +51,7 @@ class HomeMoviesView: UIViewController, HomeMoviesViewProtocol {
     //View -----> Presenter
     var presenter: HomeMoviesPresenterProtocol!
     var pickerView = UIPickerView()
+    var alert = SCLAlertView()
 
     
     //MARK:- Init View
@@ -92,7 +93,7 @@ class HomeMoviesView: UIViewController, HomeMoviesViewProtocol {
     
     //MARK:- Actions
     func showErrorMessage(message: String) {
-        print(message)
+        alert.showError("Ups", subTitle: message)
     }
     
     func displayMovies() {
