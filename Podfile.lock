@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (4.7.0)
+  - RappleProgressHUD (2.4.1)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - RappleProgressHUD
+  - SDWebImage
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  RappleProgressHUD: 1d97178abc04ea9e89e4df74227064ded389ce24
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 8baa34188504101aac3c656841219e5da6f7ae05
+
+COCOAPODS: 1.3.1
